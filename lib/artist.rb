@@ -7,6 +7,7 @@ class Artist
 
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
+<<<<<<< HEAD
   extend Findable
   include Paramable
 
@@ -18,6 +19,11 @@ class Artist
     @songs = []
   end
 
+=======
+
+  @@artists = []
+
+>>>>>>> 3a539091c77d489ca5bcd3c58a808a9ba404feed
  def self.all
     @@artists
   end
